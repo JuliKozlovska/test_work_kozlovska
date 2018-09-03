@@ -1,54 +1,16 @@
-*{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;border-right;
-	box-sizing: border-box;
-}
-body{
-	overflow-x: hidden;
-}
-
-ol, ul{
-	list-style: none;
-}
-
-blockquote{
-	border-left: 0px;
-}
-.jumbotron {
-    width: 100%;
-    height: 600px;
-    background: url(../images/bg-header.png) no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.background-transparency{
-    background-color: rgba(66, 55, 102, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
- .jumbotron .container {
-        max-width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    @media (min-width: 1200px){
-    .container {
-        width: 1170px;
-    }
-}
-    @media (min-width: 992px){
-    .container {
-        width: 970px;
-    }
-}
-    @media (min-width: 768px){
-    .container {
-        width: 750px;
-    }    
-}
+.header {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  background-image: url(../images/BACKGROUND-one.png); }
+  .header .main {
+    max-width: 960px;
+    margin: auto; }
+  .header .xyi {
+    justify-content: end; }
+  .header .nav li a {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 900; }

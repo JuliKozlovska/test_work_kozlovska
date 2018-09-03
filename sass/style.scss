@@ -1,0 +1,20 @@
+.header{width: 100%;
+	height: 600px;
+	background-size: cover;
+	position: relative;
+    background-image: url(../images/BACKGROUND-one.png);
+    .main{
+        max-width: 960px;
+        margin: auto;
+    }
+    .xyi{
+        justify-content: end
+    }
+    .nav li a{
+        font-family: 'Roboto', sans-serif;
+        color:  #ffffff;
+        font-size: 13px;
+        font-weight: 900;
+    
+    }
+}
